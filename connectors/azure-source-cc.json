@@ -5,7 +5,7 @@
     "bootstrap.servers": "kafka:9071",
     "connector.class": "io.confluent.connect.azure.blob.storage.AzureBlobStorageSourceConnector",
     "tasks.max": "2",
-    "topics.dir": "expedia",
+    "topics.dir": "root",
     "format.class": "io.confluent.connect.azure.blob.storage.format.avro.AvroFormat",
     "azblob.account.name": "stdevwesteuropeefen",
     "azblob.account.key": "K6mrIQQQCqQxYDOMCHEJ5Puy07YbwVwg5MevoJ0I+P6I+AiuWVjXHPFt75syUatAg2hpb94s6CQF+ASt0b+2rw==",
